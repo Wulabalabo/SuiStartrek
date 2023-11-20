@@ -2,6 +2,7 @@
 
 ## week 1
 1. publish Fcoin on Sui's Devnet.
+    + **Git** : https://github.com/Wulabalabo/learning_sui_move/tree/main/fcoin
     + **Coin Address**:
     0x7fa4b18f16627d86dfb127fbdfcb9633e6d1201949af74b60b0ec7ff9b56c586
     + **Package Address**:
