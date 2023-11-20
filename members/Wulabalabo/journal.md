@@ -1,5 +1,17 @@
 # Learning Journal
 
+## 0x00 手把手系列
+### 添加Sui节点
+1. 通过`sui client envs` 查看已经记录的节点信息以及本机active的节点.
+2. 通过`sui client new-env --alias <节点名字> --rpc <节点地址>`添加节点
+3. 通过`sui client switch --env <节点名字>`切换节点
+4. 常用的节点地址如下：
+    + devnet: https://fullnode.devnet.sui.io:443
+    + testnet: https://fullnode.testnet.sui.io:443
+    + mainnet: https://sui-mainnet.nodeinfra.com:443
+    
+![Alt text](images/journal-0-1.png)
+
 ## 一， 通过钱包APP查看地址资产情况
 1. 通过`sui client active-address`查看是否有可用地址
 2. 通过`cat`查看当前地址的privite-key
